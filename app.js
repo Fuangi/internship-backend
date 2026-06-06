@@ -20,10 +20,7 @@ app.use(
 	cors({
 		credentials: true,
 		methods: 'POST,GET,PATCH,DELETE',
-		origin: [
-			'https://internship-dusky.vercel.app',
-			'https://internship.landmarkuniversityevents.com',
-		],
+		origin:'https://internship.landmarkuniversityevents.com',
 		optionsSuccessStatus: 204,
 	})
 );
